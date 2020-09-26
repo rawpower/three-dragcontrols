@@ -128,7 +128,7 @@ export default class DragControls {
 
         function onDocumentTouchStart(event) {
             event.preventDefault();
-            event = evnet.changedTouches[0];
+            event = event.changedTouches[0];
 
             var rect = scope.domElement.getBoundingClientRect();
 
